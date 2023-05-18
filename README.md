@@ -16,6 +16,8 @@ yarn install
 
 ## Configuration
 
+You need to learn how ChatGPT plugins works in general by reading the ChatGPT plugin documentation [here](https://platform.openai.com/docs/plugins/introduction)
+
 ### Plugin files
 
 - `public/ai-plugin.json`: The file is manually generated
