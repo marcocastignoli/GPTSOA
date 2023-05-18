@@ -2,6 +2,8 @@
 
 A ChatGPT TypeScript Plugin Framework with automatic OpenAPI based on [lukeautry/tsoa](https://github.com/lukeautry/tsoa)
 
+⭐ Please leave a star if you like it!
+
 ## Install
 
 Just run
