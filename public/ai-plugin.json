@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "GPTSOA Hello World",
+  "name_for_model": "hello_world",
+  "description_for_human": "This is an example plugin that as a simple hello world API",
+  "description_for_model": "Plugin needed to showcase its framework's functionalities. You can call it by passing a name and it will reply `hello {name}`",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:3333/.well-known/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "http://localhost:3333/.well-known/logo.png",
+  "contact_email": "support@example.com",
+  "legal_info_url": "http://www.example.com/legal"
+}

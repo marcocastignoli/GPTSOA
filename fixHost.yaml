@@ -1,0 +1,3 @@
+textReplace:
+  - searchFor: "http://localhost:3333/"
+    replaceWith: "http://localhost:3333"
