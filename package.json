@@ -18,6 +18,7 @@
   "scripts": {
     "build-routes": "tsoa spec-and-routes && openapi-format build/swagger.json --yaml -o ./public/openapi.yaml --filterFile fixHost.yaml",
     "build": "yarn build-routes && tsc --outDir build --experimentalDecorators",
-    "start": "yarn build && node build/src/server.js"
+    "update-instructions": "node updateInstructions.js",
+    "start": "yarn build && yarn update-instructions && node build/src/server.js"
   }
 }
